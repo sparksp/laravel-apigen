@@ -1,0 +1,3 @@
+title: ApiGen Bundle
+exclude:
+	- */apigen/libraries/Neon.php

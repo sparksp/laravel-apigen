@@ -128,6 +128,10 @@ class Apigen_Make_Task extends Task {
 			if (is_file($path.'apigen.neon'))
 			{
 				$config = Neon::decode(file_get_contents($path.'apigen.neon'));
+
+				// Do not allow the user to override the destination, this
+				// should be done using the bundle config file instead.
+				@unset($config['destination']);
 			}
 			else
 			{

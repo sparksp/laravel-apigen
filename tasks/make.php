@@ -131,7 +131,7 @@ class Apigen_Make_Task extends Task {
 
 				// Do not allow the user to override the destination, this
 				// should be done using the bundle config file instead.
-				@unset($config['destination']);
+				unset($config['destination']);
 			}
 			else
 			{

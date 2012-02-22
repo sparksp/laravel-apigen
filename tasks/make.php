@@ -15,7 +15,13 @@ use Laravel\CLI\Tasks\Task;
  *     php artisan apigen::make[:command] [options]
  * </code>
  * 
- * @author    Phill Sparks <me@phills.me.uk>
+ * @category    Bundle
+ * @package     ApiGen
+ * @author      Phill Sparks <me@phills.me.uk>
+ * @license 	MIT License <http://www.opensource.org/licenses/mit>
+ * @copyright   2012 Phill Sparks
+ * 
+ * @see  https://github.com/sparksp/laravel-apigen
  */
 class Apigen_Make_Task extends Task {
 

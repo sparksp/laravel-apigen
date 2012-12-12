@@ -196,7 +196,7 @@ class Apigen_Make_Task extends Task {
 			$values = (array) $values;
 			foreach ($values as $value)
 			{
-				$output .= $name.escapeshellarg(addslashes($value));
+				$output .= $name.escapeshellarg($value);	
 			}
 		}
 		return $output;

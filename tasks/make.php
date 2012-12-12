@@ -149,7 +149,7 @@ class Apigen_Make_Task extends Task {
 			// the base path, not the bundle path.
 			if ( ! isset($config['source']))
 			{
-				$config['source'] = $path;
+				$config['source'] = str_replace('\\', '/', $path);
 			}
 
 			// Recursively merge in the config so we get all the excludes.

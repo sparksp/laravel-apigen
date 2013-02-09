@@ -3,6 +3,8 @@
 return array(
 	'destination'  => 'api',
 	'update-check' => 'no',
+	'debug'        => 'yes',
+	'groups'       => 'packages',
 	'exclude'      => array(
 		// The stub is not "real" PHP and breaks the ApiGen parser
 		'*/laravel/cli/tasks/migrate/stub.php',
